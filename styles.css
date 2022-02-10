@@ -1,16 +1,98 @@
+body{
+    background-color: rgba(218, 118, 51, 0.856);
+}
+ a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button{
+    margin: 2%;
+    color: brown;
+    border-radius: 1%;
+}
+
+/* Home Page */
 #page-name{
     font-size: 60px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     background-color: white;
     border-style: solid;
+    border-radius: 500px;
+    margin: 0 auto;
+    width: 667px;
 }
 
-.container .main-container{
+ .main-container{
     font-size: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border-style: ridge;
+    border-style:ridge;
     background-color: rgb(88, 130, 141);
     text-align: center;
     color: bisque;
+    border-radius: 50px;
+    width: 800px;
+    margin: 0 auto;
 }
+
+/* Vegetable Lasagna Page*/
+.vege-lasagna{
+    text-align: center;
+    border-style: ridge;
+    border-radius: 50px;
+    width: 500px;
+    margin: 0 auto;
+    background-color: white;
+
+}
+
+.lasagna-image{
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 35%;
+    border-radius: 20%;
+    display: block;
+    border-style: solid;
+    border-color: black;
+}
+
+.vege-pasta{
+    margin:0 auto;
+    text-align: center;
+    margin-top: 2%;
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    padding: 50px;
+}
+
+.chicken-in{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-style:ridge;
+    background-color: rgb(88, 130, 141);
+    text-align: center;
+    color: bisque;
+    border-radius: 50px;
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.instructions{
+    text-align: left;
+    background-color: white;
+    border-radius: 20px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.instructions h1{
+    text-align: center;
+    color: rgb(19, 16, 16);
+}
+
