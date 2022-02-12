@@ -5,6 +5,7 @@ body{
     text-decoration: none;
     color: white;
     font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
 }
 
 button{
@@ -35,34 +36,38 @@ button{
     border-radius: 50px;
     width: 800px;
     margin: 0 auto;
+    box-sizing: inherit;
 }
 
-/* Vegetable Lasagna Page*/
+/* Vegetable Lasagna, Chick Pesto Pasta, Blackened Tilapia Styles*/
 .vege-lasagna{
     text-align: center;
     border-style: ridge;
     border-radius: 50px;
     width: 500px;
     margin: 0 auto;
+    /* margin-top: 10%; */
     background-color: white;
-
+    display:inline-flex;
 }
 
 .lasagna-image{
     margin: 0 auto;
-    margin-top: 5%;
+    /* margin-top: -105%; */
     width: 35%;
     border-radius: 20%;
-    display: block;
+    display: inline;
     border-style: solid;
     border-color: black;
+    /* box-sizing: inherit; */
 }
 
 .vege-pasta{
     margin:0 auto;
-    text-align: center;
-    margin-top: 2%;
-    display: block;
+    text-align: right;
+    /* margin-top: -20em;
+    margin-right: 50em; */
+    display: inline-flex;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
     padding: 50px;
