@@ -1,0 +1,81 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(248, 233, 211);
+    margin: 0 auto;
+}
+
+/* HOME PAGE */
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 2;
+}
+
+.flex-container h2{
+    flex: 1;
+}
+
+.flex-container h3{
+    flex: 1;
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 100px;
+    width: 500px;
+    margin: 20px;
+}
+
+/* Vegetable Lasagna */
+
+.vege{
+    border: solid black 5px;
+    background-color: white;
+    margin: 5px;
+    display: block;
+    flex-direction: row;
+justify-content: center;}
+
+.vege .vege-lasagna{
+    /* display: inline; */
+    background-color: white;
+    width: 500px;
+    height: 200px;
+    border: black solid 2px;
+    text-align: center;
+    border-radius: 2em;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+
+.vege .lasagna-image{
+    height: 25em;
+    width: 500px;
+    display: inline;
+    margin-left: 900px;
+    border-style: double;
+    flex-shrink: 1;
+}
+
+.vege .vege-pasta{
+    width: 500px;
+    margin-left: 400px;
+    display:  block;
+}
+
+.vege .chicken-in{
+    display: flex;
+    flex: 1;
+    margin-top: -10px;
+}
+
+.vege .instructions{
+    display: flex;
+    flex: 1;
+    width: 800px;
+    margin-top: -400px;
+}
